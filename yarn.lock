@@ -1236,10 +1236,17 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
-"@jag-ui-react/core@^1.0.10":
-  version "1.0.10"
-  resolved "https://registry.yarnpkg.com/@jag-ui-react/core/-/core-1.0.10.tgz#3bf11db639a42111f968928a449ac0c3e6b02de8"
-  integrity sha512-2RpIMganwxtd9W/hRxeRwSn9V9C/8wuk3Y0iSN0Et9fN0/6wU1YHdmge+utUoylLWTt8bBlKr47AToBI8xQMRQ==
+"@jag-ui-react/components@^1.0.11":
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/@jag-ui-react/components/-/components-1.0.11.tgz#312afff4378d97f3aee93c1dc515d8781b4936f2"
+  integrity sha512-Ax2SNcVXzWWTkXL8fAea6Ol2WyAxFiR5A3U4NOQsnf31QN3quQoipPrhFu0IeOQTm74c6wExaVSGtu+xbvRD2A==
+  dependencies:
+    "@jag-ui-react/core" "^1.0.11"
+
+"@jag-ui-react/core@^1.0.11":
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/@jag-ui-react/core/-/core-1.0.11.tgz#19c56d4419f9af3a0c923c068facf70abb57a107"
+  integrity sha512-ft0OdTYT7YnQj68+A8iqZI9sYchKZD3nqpXk5XOmCoFTOWSpHlEB0m/Akn4ov4AqN8/9nLbI+yZvvPHd9MiVdg==
   dependencies:
     "@emotion/core" "^10.0.0"
     "@emotion/styled" "^10.0.0"
